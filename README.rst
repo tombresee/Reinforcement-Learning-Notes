@@ -1,7 +1,7 @@
 
 
-Social Media and Network Engineering Analysis
-###############################################
+Reinforcement Learning Notes
+################################
 
 
 |
@@ -9,7 +9,8 @@ Social Media and Network Engineering Analysis
 
 
 :University: Michigan
-:Focus: Advanced Social Media Analytics 
+:Date: December 10, 2021
+:Focus: Understanding Reinforcement Learning
 
 
 |
@@ -33,37 +34,14 @@ Reference Links
 
 * `main twitter api wrapper they use in that book <https://github.com/python-twitter-tools/twitter>`_
 
-* `Tom Twitter Dashboard <https://developer.twitter.com/en/portal/dashboard>`_
-
-* `Social Media Analytics Github 3rd Edition <https://github.com/mikhailklassen/Mining-the-Social-Web-3rd-Edition>`_
-
-* `Twitter Official API <https://developer.twitter.com/en/docs>`_
-
-* `Twitter Developer Account <https://developer.twitter.com/en/portal/dashboard>`_
-
-* `Twitter Developer <https://developer.twitter.com/en>`_
-
-* `Kepler_gl <https://github.com/keplergl/kepler.gl>`_ 
-
-* `Kepler Jupyter Notebooks <https://docs.kepler.gl/docs/keplergl-jupyter>`_ 
-
-* https://github.com/python-twitter-tools/twitter
-
-* https://nbviewer.org/github/ptwobrussell/Mining-the-Social-Web-2nd-Edition/tree/master/ipynb/
-
-* https://documenter.getpostman.com/view/9956214/T1LMiT5U  postman twitter apiv2
-
-* **pew research** -  https://www.pewresearch.org/internet/2021/04/07/social-media-use-in-2021/ 
-
 
 
 |
 |
 
 
-
-Michigan - SIADS 682 - Social Media Analytics
------------------------------------------------
+Header Dash
+---------------------
 
 
 This course will introduce concepts and approaches to mining social media data. It focuses on obtaining and exploring those data, mining networks, and mining texts from social platforms. Students will learn how to apply previously learned data mining concepts in the context of social media data.
