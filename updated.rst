@@ -86,6 +86,9 @@ installed) and handled in a smart way:
   * ``rest``
   * \alpha 
   * α 
+  * &#120572;
+  * α
+  * ε
   * ``c``
   * ... and any other lexer name that Pygments supports.
 
