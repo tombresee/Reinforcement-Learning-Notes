@@ -11,9 +11,13 @@
 
 
 
+
+
 .. highlight:: python
 
 .. now all you need to do is indent and type code...
+
+
 
 
 
@@ -58,31 +62,25 @@ installed) and handled in a smart way:
   interspersed snippets of shell commands or other code blocks will not be
   highlighted as Python).
 
-* The highlighting language can be changed using the ``highlight`` directive,
-  used as follows::
 
-     .. highlight:: c
-
-  
 
 * The valid values for the highlighting language are:
 
   * ``none`` (no highlighting)
-  * `none` (single)
   * ``python`` (the default when :confval:`highlight_language` isn't set)
   * ``guess`` (let Pygments guess the lexer based on contents, only works with
     certain well-recognizable languages)
   * ``rest``
-  * \alpha 
   * α 
-  * &#120572;
   * α
+  ``α``
   * ε
   * ``c``
   * ... and any other lexer name that Pygments supports.
 
-* If highlighting with the selected language fails, the block is not highlighted
-  in any way.
+
+
+
 
 Line numbers
 ^^^^^^^^^^^^
@@ -93,6 +91,11 @@ Line numbers
 
     <span class="bold>sample HTML</span>
 
+
+.. code-block:: python
+
+    # comment
+    print(something)
 
 
 
@@ -109,77 +112,6 @@ Line numbers
 
 
 
-
-Includes
-^^^^^^^^
-
-   Longer displays of verbatim text may be included by storing the example text in
-   an external file containing only plain text.  The file may be included using the
-   ``literalinclude`` directive. [1]_ For example, to include the Python source file
-   :file:`example.py`, use::
-
-      .. literalinclude:: example.py
-
-   The file name is usually relative to the current file's path.  However, if it
-   is absolute (starting with ``/``), it is relative to the top source
-   directory.
-
-   Tabs in the input are expanded if you give a ``tab-width`` option with the
-   desired tab width.
-
-   The directive also supports the ``linenos`` flag option to switch on line
-   numbers, the ``emphasize-lines`` option to emphasize particular lines, and
-   a ``language`` option to select a language different from the current
-   file's standard language.  Example with options::
-
-      .. literalinclude:: example.rb
-         :language: ruby
-         :emphasize-lines: 12,15-18
-         :linenos:
-
-   Include files are assumed to be encoded in the :confval:`source_encoding`.
-   If the file has a different encoding, you can specify it with the
-   ``encoding`` option::
-
-      .. literalinclude:: example.py
-         :encoding: latin-1
-
-   The directive also supports including only parts of the file.  If it is a
-   Python module, you can select a class, function or method to include using
-   the ``pyobject`` option::
-
-      .. literalinclude:: example.py
-         :pyobject: Timer.start
-
-   This would only include the code lines belonging to the ``start()`` method in
-   the ``Timer`` class within the file.
-
-   Alternately, you can specify exactly which lines to include by giving a
-   ``lines`` option::
-
-      .. literalinclude:: example.py
-         :lines: 1,3,5-10,20-
-
-   This includes the lines 1, 3, 5 to 10 and lines 20 to the last line.
-
-   Another way to control which part of the file is included is to use the
-   ``start-after`` and ``end-before`` options (or only one of them).  If
-   ``start-after`` is given as a string option, only lines that follow the first
-   line containing that string are included.  If ``end-before`` is given as a
-   string option, only lines that precede the first lines containing that string
-   are included.
-
-   You can prepend and/or append a line to the included code, using the
-   ``prepend`` and ``append`` option, respectively.  This is useful e.g. for
-   highlighting PHP code that doesn't include the ``<?php``/``?>`` markers.
-
-   .. versionadded:: 0.4.3
-      The ``encoding`` option.
-   .. versionadded:: 0.6
-      The ``pyobject``, ``lines``, ``start-after`` and ``end-before`` options,
-      as well as support for absolute filenames.
-   .. versionadded:: 1.0
-      The ``prepend`` and ``append`` options, as well as ``tab-width``.
 
 
 
