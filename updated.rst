@@ -104,7 +104,9 @@ installed) and handled in a smart way:
       self.critic_optimizer = torch.optim.Adam(self.critic.parameters(), lr=3e-4)
       
 
-      self.α  =  'tom'
+      self.α  =  100
+
+      self.α_2  =  100
 
       self.Q_θ = 10
 
