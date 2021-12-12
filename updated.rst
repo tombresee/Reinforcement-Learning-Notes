@@ -71,12 +71,10 @@ installed) and handled in a smart way:
   * ``guess`` (let Pygments guess the lexer based on contents, only works with
     certain well-recognizable languages)
   * ``rest``
+  * α  -  more information 
   * α 
-  * α
-  ``α``
-  * ε
-  * ``c``
-  * ... and any other lexer name that Pygments supports.
+  * ε 
+  * ``c`` 
 
 
 
