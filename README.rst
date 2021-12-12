@@ -107,6 +107,36 @@ Access to Twitter API (Grab)
 
 
 
+
+
+A cool bit of code 
+.. highlight:: python
+
+  #  python
+  #  code
+  print(tom)
+
+
+
+
+
+
+A cool bit of code 
+.. code-block:: python
+
+  #  python
+  #  code
+  print(tom)
+
+
+
+
+
+
+
+
+
+
 A cool bit of code::
 
   Twitter’s tweet detail route has the form of https://twitter.com/{userName}/status/{tweetId}. 
