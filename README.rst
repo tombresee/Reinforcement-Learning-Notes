@@ -135,17 +135,9 @@ A cool bit of code
 
 
 
-
-
 A cool bit of code::
 
   Twitter’s tweet detail route has the form of https://twitter.com/{userName}/status/{tweetId}. 
-  When passing in a tweetId with a non-matching/invalid userName, the Twitter website will 
-  automatically redirect to the URL with the correct userName
-  
-  Example: To see the contents of the tweet with id 932586791953158144 just visit 
-  https://twitter.com/anyuser/status/932586791953158144 and you’ll be redirected 
-  to its actual URL: https://twitter.com/bramus/status/932586791953158144
 
 
 
@@ -157,39 +149,10 @@ Navigate to your app's “Keys and tokens” page, and save your API Keys, Acces
 
 Absolutely Critical Tom Tokens::
 
-
-  Let's start completely over !
-    Regenerated...
-    JARVIS App:
-
-  1. Consumer Keys
-
-  (API Key and Secret)
-
-  Think of the API key as the user name that represents your App 
-  when making API requests. It helps us verify who you are.
-
-  API Key:
-  JzYCEbNB13KtAFMpH2kzab2kF
-
-  API Key Secret:
-  WFnaUvsCNjai9OuBJNqLgYoBObBwBzZTduG9cO17TRjGFp6yuA
+  # more 
 
 
 
-  2.  Authentication Tokens
-
-  Bearer Token:
-  AAAAAAAAAAAAAAAAAAAAAFKjUgEAAAAA1E%2FpMg7ZsOy485HoCypGO2O8hU4%3DyVCIMSkODc8tctNZ8ezuNPYQflBdFtdWJE9REXBiaEF4rvLDkw
-
-
-  Access Token and Secret: 
-
-  Access Token:
-  49226246-WQoaZcAfXWcINrJQtVR1IzkLkWxl0KBZlCixUybmJ
-
-  Access Token Secret:
-  RUzvtMuhToZk6731jQ33gcHY228Wr78o6Ow0Dzv4xnFNc
 
 
 
