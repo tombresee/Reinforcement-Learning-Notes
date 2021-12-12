@@ -104,7 +104,7 @@ installed) and handled in a smart way:
       self.critic = Critic(state_dim, action_dim).to(device)
       self.critic_target = copy.deepcopy(self.critic)
       self.critic_optimizer = torch.optim.Adam(self.critic.parameters(), lr=3e-4)
-
+      self.α  =  'tom'
       self.max_action = max_action
       self.discount = discount
       self.tau = tau
