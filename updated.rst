@@ -1,6 +1,16 @@
 
 
 
+.. toctree::
+   :maxdepth: 2
+
+   intro
+   strings
+   datatypes
+   numeric
+   (many more documents listed here)
+
+   
 
 .. codeblock:: python
 
@@ -97,6 +107,26 @@ installed) and handled in a smart way:
 
 Line numbers
 ^^^^^^^^^^^^
+
+.. code-block:: HTML
+
+    <span class="bold>sample HTML</span>
+
+
+
+
+.. code-block:: bash
+    :caption: Code block with syntax highlighting and line numbers
+    :linenos:
+    :emphasize-lines: 9,10,34,39,46
+
+    # This code block uses bash syntax highlighting
+    # Also, a code-block has args for line numbers,
+    # highlighting lines, and captions!
+
+
+
+
 
 If installed, Pygments can generate line numbers for code blocks.  For
 automatically-highlighted blocks (those started by ``::``), line numbers must be
