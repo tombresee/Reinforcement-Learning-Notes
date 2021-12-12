@@ -8,9 +8,11 @@ Reinforcement Learning Notes
 |
 
 
-:University: Michigan
+:Author: Tom Bresee
+:University: Michigan - Applied Data Science Masters Program
 :Date: December 10, 2021
 :Focus: Understanding Reinforcement Learning
+
 
 
 |
