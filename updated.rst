@@ -178,7 +178,7 @@ Includes
 
 
 
-code-block::
+code-block here:   ::python
 
        def some_function():
            interesting = False
