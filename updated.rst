@@ -112,15 +112,16 @@ installed) and handled in a smart way:
 
       self.max_action = max_action
       
-      self.𝛾  = discount
+      self.𝛾  = 0.99  # discount
 
       self.max_action = max_action
 
-      self.τ = tau
+      self.τ = tau    # updated 
 
       self.policy_noise = policy_noise
       self.noise_clip = noise_clip
       self.policy_freq = policy_freq
+      
       self.total_it = 0
 
 
