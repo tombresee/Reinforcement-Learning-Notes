@@ -1,6 +1,3 @@
-:Authors: Tony J. (Tibs) Ibbs,
-:Version: 1.0 of 2001/08/08
-:Dedication: To my father.
 
 
 
@@ -8,10 +5,7 @@
 .. codeblock:: python
 
 
-```
-  # im hoping this shows as python
-  print(tom)
-```
+
 
 
 -a            command-line option "a"
@@ -21,6 +15,10 @@
 --input=file  long options can also have
               arguments
 /V            DOS/VMS-style options too
+
+
+
+---
 
 
 
@@ -43,9 +41,6 @@ how
 
 Showing code examples
 ---------------------
-
-.. index:: pair: code; examples
-           single: sourcecode
 
 Examples of Python source code or interactive sessions are represented using
 standard reST literal blocks.  They are started by a ``::`` at the end of the
@@ -79,25 +74,17 @@ installed) and handled in a smart way:
 
      .. highlight:: c
 
-  This language is used until the next ``highlight`` directive is encountered.
-
-* For documents that have to show snippets in different languages, there's also
-  a :rst:dir:`code-block` directive that is given the highlighting language
-  directly::
-
-     .. code-block:: ruby
-
-        Some Ruby code.
-
-  The directive's alias name :rst:dir:`sourcecode` works as well.
+  
 
 * The valid values for the highlighting language are:
 
   * ``none`` (no highlighting)
+  * `none` (single)
   * ``python`` (the default when :confval:`highlight_language` isn't set)
   * ``guess`` (let Pygments guess the lexer based on contents, only works with
     certain well-recognizable languages)
   * ``rest``
+  * \alpha  
   * ``c``
   * ... and any other lexer name that Pygments supports.
 
