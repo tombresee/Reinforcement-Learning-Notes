@@ -14,13 +14,14 @@
     this should not show up 
 
 
+.. highlight:: python
 
 
-``python
-# require 'simplabs/highlight'
-# Simplabs::Highlight.highlight(:ruby, 'class Test; end')
-``
 
+
+
+a             demo
+b             work please 
 
 
 
@@ -34,8 +35,6 @@
 /V            DOS/VMS-style options too
 
 
-
----
 
 
 
@@ -52,7 +51,8 @@ how
 
 
 
-.. highlight:: rest
+.. highlight:: python
+
 
 .. _code-examples:
 
