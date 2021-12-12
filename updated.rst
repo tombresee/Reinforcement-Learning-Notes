@@ -109,6 +109,8 @@ installed) and handled in a smart way:
       self.α_2  =  100
 
       self.Q_θ = 10
+   
+      self.ś  = 100 
 
       self.max_action = max_action
       
