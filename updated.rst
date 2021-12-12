@@ -7,6 +7,16 @@
 
 
 
+
+.. codeblock:: python
+
+
+```
+  # im hoping this shows as python
+  print(tom)
+```
+
+
 -a            command-line option "a"
 -b file       options can have arguments
               and long descriptions
@@ -29,7 +39,7 @@ how
   between term and definition.
 
 
-  
+
 .. highlight:: rest
 
 .. _code-examples:
