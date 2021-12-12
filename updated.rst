@@ -1,6 +1,5 @@
 
 
-
 .. toctree::
    :maxdepth: 2
 
@@ -11,29 +10,16 @@
    (many more documents listed here)
 
 
-
-\\.. codeblock:: python
-
-
-
-
 ..
     this should not show up 
 
 
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
 
-
-
-```python
+``python
 # require 'simplabs/highlight'
 # Simplabs::Highlight.highlight(:ruby, 'class Test; end')
-```
+``
 
 
 
