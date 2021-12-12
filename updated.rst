@@ -178,7 +178,7 @@ Includes
 
 
 
-Tom is .. code-block:: python
+code-block::
 
        def some_function():
            interesting = False
