@@ -19,8 +19,6 @@
 
 
 
-
-
 what
   Definition lists associate a term with
   a definition.
@@ -63,6 +61,9 @@ installed) and handled in a smart way:
 
 
 
+
+
+
 * The valid values for the highlighting language are:
 
   * ``none`` (no highlighting)
@@ -79,8 +80,11 @@ installed) and handled in a smart way:
 
 
 
-``
-class TD3(object):
+
+
+.. code-block:: python
+
+    class TD3(object):
   def __init__(
     self,
     state_dim,
@@ -109,7 +113,10 @@ class TD3(object):
     self.policy_freq = policy_freq
 
     self.total_it = 0
-``
+
+
+
+
 
 
 
@@ -118,19 +125,6 @@ class TD3(object):
 
     # comment
     print(something)
-
-
-
-
-
-.. code-block:: bash
-    :caption: Code block with syntax highlighting and line numbers
-    :linenos:
-    :emphasize-lines: 9,10,34,39,46
-
-    # This code block uses bash syntax highlighting
-    # Also, a code-block has args for line numbers,
-    # highlighting lines, and captions!
 
 
 
