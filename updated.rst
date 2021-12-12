@@ -66,6 +66,7 @@ installed) and handled in a smart way:
 * The valid values for the highlighting language are:
 
   * ``none`` (no highlighting)
+  * python 
   * ``python`` (the default when :confval:`highlight_language` isn't set)
   * ``guess`` (let Pygments guess the lexer based on contents, only works with
     certain well-recognizable languages)
