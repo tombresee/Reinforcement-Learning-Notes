@@ -12,7 +12,6 @@
 
 
 
-
 .. highlight:: python
 
 .. now all you need to do is indent and type code...
@@ -80,16 +79,6 @@ installed) and handled in a smart way:
 
 
 
-
-
-Line numbers
-^^^^^^^^^^^^
-
-
-
-.. code-block:: HTML
-
-    <span class="bold>sample HTML</span>
 
 
 .. code-block:: python
