@@ -109,7 +109,7 @@ class TD3(object):
     self.policy_freq = policy_freq
 
     self.total_it = 0
-```
+``
 
 
 
