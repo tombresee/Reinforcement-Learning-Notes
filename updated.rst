@@ -10,25 +10,10 @@
    (many more documents listed here)
 
 
-..
-    this should not show up 
-
 
 .. highlight:: python
 
-
-
-
-
--a            command-line option "a"
--b file       options can have arguments
-              and long descriptions
---long        options can be long also
---input=file  long options can also have
-              arguments
-/V            DOS/VMS-style options too
-
-
+.. now all you need to do is indent and type code...
 
 
 
@@ -43,13 +28,6 @@ how
   body elements, indented relative to the
   term. Blank lines are not allowed
   between term and definition.
-
-
-
-.. highlight:: python
-
-
-.. _code-examples:
 
 
 
@@ -69,15 +47,10 @@ an "unused" primary prompt; this is an example of what *not* to do::
     print(tom)
 
 
-    
-
 Syntax highlighting is done with `Pygments <http://pygments.org>`_ (if it's
 installed) and handled in a smart way:
 
-* There is a "highlighting language" for each source file.  Per default, this is
-  ``'python'`` as the majority of files will have to highlight Python snippets,
-  but the doc-wide default can be set with the :confval:`highlight_language`
-  config value.
+
 
 * Within Python highlighting mode, interactive sessions are recognized
   automatically and highlighted appropriately.  Normal Python code is only
@@ -114,9 +87,13 @@ installed) and handled in a smart way:
 Line numbers
 ^^^^^^^^^^^^
 
+
+
 .. code-block:: HTML
 
     <span class="bold>sample HTML</span>
+
+
 
 
 
@@ -131,41 +108,6 @@ Line numbers
     # highlighting lines, and captions!
 
 
-
-
-
-If installed, Pygments can generate line numbers for code blocks.  For
-automatically-highlighted blocks (those started by ``::``), line numbers must be
-switched on in a :rst:dir:`highlight` directive, with the ``linenothreshold``
-option::
-
-   .. highlight:: python
-      :linenothreshold: 5
-
-This will produce line numbers for all code blocks longer than five lines.
-
-For :rst:dir:`code-block` blocks, a ``linenos`` flag option can be given to switch
-on line numbers for the individual block::
-
-   .. code-block:: ruby
-      :linenos:
-
-      Some more Ruby code.
-
-Additionally, an ``emphasize-lines`` option can be given to have Pygments
-emphasize particular lines::
-
-    .. code-block:: python
-       :emphasize-lines: 3,5
-
-       def some_function():
-           interesting = False
-           print 'This line is highlighted.'
-           print 'This one is not...'
-           print '...but this one is.'
-
-.. versionchanged:: 1.1
-   ``emphasize-lines`` has been added.
 
 
 Includes
@@ -257,8 +199,6 @@ Includes
            print '...but this one is.'
        # more 
 ```
-
-
 
 
 
