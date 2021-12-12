@@ -80,8 +80,6 @@ installed) and handled in a smart way:
 
 
 
-
-
 .. code-block:: python
 
  class TD3(object):
@@ -104,17 +102,23 @@ installed) and handled in a smart way:
       self.critic = Critic(state_dim, action_dim).to(device)
       self.critic_target = copy.deepcopy(self.critic)
       self.critic_optimizer = torch.optim.Adam(self.critic.parameters(), lr=3e-4)
+      
+
       self.α  =  'tom'
 
       self.Q_θ = 10
 
       self.max_action = max_action
+      
       self.𝛾  = discount
+
+      self.max_action = max_action
+
       self.τ = tau
+
       self.policy_noise = policy_noise
       self.noise_clip = noise_clip
       self.policy_freq = policy_freq
-
       self.total_it = 0
 
 
