@@ -176,6 +176,20 @@ Includes
       The ``prepend`` and ``append`` options, as well as ``tab-width``.
 
 
+
+
+Tom is .. code-block:: python
+
+       def some_function():
+           interesting = False
+           print 'This line is highlighted.'
+           print 'This one is not...'
+           print '...but this one is.'
+
+
+
+
+
 .. rubric:: Footnotes
 
 .. [1] There is a standard ``.. include`` directive, but it raises errors if the
