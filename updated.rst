@@ -113,8 +113,6 @@ Line numbers
 Includes
 ^^^^^^^^
 
-.. rst:directive:: .. literalinclude:: filename
-
    Longer displays of verbatim text may be included by storing the example text in
    an external file containing only plain text.  The file may be included using the
    ``literalinclude`` directive. [1]_ For example, to include the Python source file
@@ -182,23 +180,6 @@ Includes
       as well as support for absolute filenames.
    .. versionadded:: 1.0
       The ``prepend`` and ``append`` options, as well as ``tab-width``.
-
-
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-
-
-
-```python
-       def some_function():
-           interesting = False
-           print 'This line is highlighted.'
-           print 'This one is not...'
-           print '...but this one is.'
-       # more 
-```
 
 
 
