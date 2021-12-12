@@ -117,11 +117,14 @@ installed) and handled in a smart way:
       self.max_action = max_action
 
       self.τ = tau    # updated 
+      
+      self.𝞢 = 100
+
 
       self.policy_noise = policy_noise
       self.noise_clip = noise_clip
       self.policy_freq = policy_freq
-      
+
       self.total_it = 0
 
 
