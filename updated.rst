@@ -109,7 +109,9 @@ installed) and handled in a smart way:
       self.α_2  =  100
 
       self.Q_θ = 10
-   
+      
+      self.s' = 100
+      
       self.ś  = 100   # ś is next state 
 
       self.max_action = max_action
