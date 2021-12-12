@@ -22,7 +22,19 @@
 
 
 
-    
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+
+
+```python
+# require 'simplabs/highlight'
+# Simplabs::Highlight.highlight(:ruby, 'class Test; end')
+```
+
 
 
 
