@@ -20,12 +20,6 @@
 
 
 
-a             demo
-b             work please 
-
-
-
-
 -a            command-line option "a"
 -b file       options can have arguments
               and long descriptions
@@ -33,6 +27,7 @@ b             work please
 --input=file  long options can also have
               arguments
 /V            DOS/VMS-style options too
+
 
 
 
@@ -56,6 +51,8 @@ how
 
 .. _code-examples:
 
+
+
 Showing code examples
 ---------------------
 
@@ -68,9 +65,11 @@ along with the Python code.  No special markup is required for interactive
 sessions.  After the last line of input or output presented, there should not be
 an "unused" primary prompt; this is an example of what *not* to do::
 
-   >>> 1 + 1
-   2
-   >>>
+    # python hopefully
+    print(tom)
+
+
+    
 
 Syntax highlighting is done with `Pygments <http://pygments.org>`_ (if it's
 installed) and handled in a smart way:
