@@ -176,6 +176,11 @@ Includes
       The ``prepend`` and ``append`` options, as well as ``tab-width``.
 
 
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
 
 
 ```python
