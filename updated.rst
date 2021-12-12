@@ -84,7 +84,8 @@ installed) and handled in a smart way:
   * ``guess`` (let Pygments guess the lexer based on contents, only works with
     certain well-recognizable languages)
   * ``rest``
-  * \alpha  
+  * \alpha 
+  * α 
   * ``c``
   * ... and any other lexer name that Pygments supports.
 
