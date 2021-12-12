@@ -79,7 +79,7 @@ installed) and handled in a smart way:
 
 
 
-```
+``
 class TD3(object):
   def __init__(
     self,
